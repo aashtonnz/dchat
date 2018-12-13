@@ -1,6 +1,6 @@
 hc/dist/
 hc/node_modules/
 hc/target/
-hc/test/dist
+hc/test/node_modules/
+hc/test/package-lock.json
 ui/node_modules/
-
