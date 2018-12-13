@@ -1,0 +1,14 @@
+{
+  "name": "Dchat",
+  "description": "Decentralized chat application",
+  "authors": [
+    {
+      "indentifier": "Andrew Ashton <aashtonnz@gmail.com>",
+      "public_key_source": "",
+      "signature": ""
+    }
+  ],
+  "version": "0.0.1",
+  "dht": {},
+  "properties": null
+}

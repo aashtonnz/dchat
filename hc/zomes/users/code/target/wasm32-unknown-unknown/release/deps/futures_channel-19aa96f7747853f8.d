@@ -1,0 +1,9 @@
+/home/aashtonnz/dev/holochain-rust-todo/zomes/lists/code/target/wasm32-unknown-unknown/release/deps/libfutures_channel-19aa96f7747853f8.rlib: /home/aashtonnz/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-preview-0.2.2/src/lib.rs /home/aashtonnz/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-preview-0.2.2/src/lock.rs /home/aashtonnz/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-preview-0.2.2/src/mpsc/mod.rs /home/aashtonnz/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-preview-0.2.2/src/mpsc/queue.rs /home/aashtonnz/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-preview-0.2.2/src/oneshot.rs
+
+/home/aashtonnz/dev/holochain-rust-todo/zomes/lists/code/target/wasm32-unknown-unknown/release/deps/futures_channel-19aa96f7747853f8.d: /home/aashtonnz/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-preview-0.2.2/src/lib.rs /home/aashtonnz/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-preview-0.2.2/src/lock.rs /home/aashtonnz/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-preview-0.2.2/src/mpsc/mod.rs /home/aashtonnz/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-preview-0.2.2/src/mpsc/queue.rs /home/aashtonnz/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-preview-0.2.2/src/oneshot.rs
+
+/home/aashtonnz/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-preview-0.2.2/src/lib.rs:
+/home/aashtonnz/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-preview-0.2.2/src/lock.rs:
+/home/aashtonnz/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-preview-0.2.2/src/mpsc/mod.rs:
+/home/aashtonnz/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-preview-0.2.2/src/mpsc/queue.rs:
+/home/aashtonnz/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-preview-0.2.2/src/oneshot.rs:

@@ -1,0 +1,20 @@
+{
+  "name": "dchat",
+  "version": "0.0.1",
+  "description": "Decentralized chat application",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "dchat": "cli.js"
+  },
+  "author": "Andrew Ashton",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.19.0"
+  }
+}
