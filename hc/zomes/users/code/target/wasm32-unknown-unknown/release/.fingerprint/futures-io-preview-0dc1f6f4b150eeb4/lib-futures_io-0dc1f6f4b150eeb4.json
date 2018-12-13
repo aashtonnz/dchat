@@ -1,1 +1,0 @@
-{"rustc":12561586668264683700,"features":"[\"futures-core-preview\", \"iovec\", \"std\"]","target":1366676173716259132,"profile":5060393583489210841,"path":11659267235763139263,"deps":[["futures-core-preview v0.2.3","futures_core",5180909478571552664],["iovec v0.1.2","iovec",11257564918424066592]],"local":[{"Precalculated":"0.2.2"}],"rustflags":[],"edition":"Edition2015"}

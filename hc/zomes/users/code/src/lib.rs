@@ -73,33 +73,33 @@ define_zome! {
 	functions: {
         // "main" is the name of the capability
         // "Public" is the access setting of the capability
-        main (Public) {
-            create_user: {
-                inputs: |user: User|,
-                outputs: |result: JsonString|,
-                handler: handle_create_user
-            }
-            all_users: {
-                inputs: |user_addr: HashString|,
-                outputs: |result: JsonString|,
-                handler: handle_get_all_users
-            }
-            // add_item: {
-            //     inputs: |list_item: ListItem, list_addr: HashString|,
-            //     outputs: |result: JsonString|,
-            //     handler: handle_add_item
-            // }
-            // get_list: {
-            //     inputs: |list_addr: HashString|,
-            //     outputs: |result: JsonString|,
-            //     handler: handle_get_list
-            // }
+      main (Public) {
+          create_user: {
+              inputs: |user: User|,
+              outputs: |result: JsonString|,
+              handler: handle_create_user
+          }
+          all_users: {
+              inputs: |user_addr: HashString|,
+              outputs: |result: JsonString|,
+              handler: handle_get_all_users
+          }
+          // add_item: {
+          //     inputs: |list_item: ListItem, list_addr: HashString|,
+          //     outputs: |result: JsonString|,
+          //     handler: handle_add_item
+          // }
+          // get_list: {
+          //     inputs: |list_addr: HashString|,
+          //     outputs: |result: JsonString|,
+          //     handler: handle_get_list
+          // }
         }
     }
 }
 
 fn handle_create_user(user: User) -> JsonString {
-    let user_entry = Entry::new(EntryType::App("user".into()), user);
+  let user_entry = Entry::new(EntryType::App("user".into()), user);
 	match hdk::commit_entry(&user_entry) {
 		Ok(address) => json!({"success": true, "address": address}).into(),
 		Err(hdk_err) => hdk_err.into()
@@ -153,6 +153,7 @@ fn handle_create_user(user: User) -> JsonString {
 // fn handle_get_all_users(list_addr: HashString) -> JsonString {
 fn handle_get_all_users(user_addr: HashString) -> JsonString {
   // hdk::get_entry(list_addr.clone());
+  hdk::debug("write a message to the logs");
   json!({"test": "this is a test message"}).into()
 
   //   // try and get the list entry and ensure it is the data type we expect
