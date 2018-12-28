@@ -1,4 +1,5 @@
 #![feature(try_from)]
+
 #[macro_use]
 extern crate hdk;
 extern crate serde;
@@ -8,13 +9,13 @@ extern crate serde_derive;
 extern crate serde_json;
 #[macro_use]
 extern crate holochain_core_types_derive;
-extern crate chrono;
 
 mod user;
+mod utils;
 
 define_zome! {
     entries: [
-        user::user_definition()
+        user::definition()
     ]
 
     genesis: || { Ok(()) }
@@ -25,6 +26,11 @@ define_zome! {
                 inputs: |id: String, name: String|,
                 outputs: |result: JsonString|,
                 handler: user::handle_create_user
+            }
+            get_my_users: {
+                inputs: | |,
+                outputs: |result: JsonString|,
+                handler: user::handle_get_my_users
             }
         }
     }
